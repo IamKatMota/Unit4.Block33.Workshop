@@ -1,0 +1,18 @@
+{
+  "name": "unit4.block33.workshop",
+  "version": "1.0.0",
+  "description": "block 33 acme hr database",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.3"
+  }
+}
