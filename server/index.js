@@ -6,7 +6,7 @@ const path = require('path');
 app.use(express.json());
 
 // db client
-const client = new pg.Client("postgres://kat:KatMiaTy2018@localhost:5432/acme_hr_db")
+const client = new pg.Client("postgres://kat:Kat1234@localhost:5432/acme_hr_db")
 
 //error handling 
 app.use((error,req,res,next) => {
